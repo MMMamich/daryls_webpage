@@ -1,0 +1,39 @@
+:root {
+  font-size: 62.5%;
+
+  --main-color: #1c2834;
+}
+
+body {
+  background: #1c2834;
+  background: var(--main-color);
+}
+
+.logo {
+  margin: 2rem;
+}
+
+.menu-container {
+  max-width: 220rem;
+  margin: 0 auto;
+}
+.menu {
+  background: url("daryls_dashboard.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: auto;
+  min-height: 50rem;
+}
+
+.insta-feed {
+  max-width: 220rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 2100px) {
+  .menu {
+    min-height: 150rem;
+  }
+}
