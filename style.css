@@ -14,8 +14,6 @@ body {
 }
 
 .menu-container {
-  max-width: 220rem;
-  margin: 0 auto;
 }
 .menu {
   background: url("daryls_dashboard.png");
