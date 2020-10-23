@@ -16,7 +16,7 @@ body {
 .menu-container {
 }
 .menu {
-  background: url("daryls_dashboard.png");
+  background: url("images/daryls_dashboard.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +28,12 @@ body {
 .insta-feed {
   max-width: 220rem;
   margin: 0 auto;
+}
+
+@media (max-width: 2100px) {
+  .menu {
+    margin: 10rem 0;
+  }
 }
 
 @media (min-width: 2100px) {
